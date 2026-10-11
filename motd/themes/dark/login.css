@@ -1,0 +1,31 @@
+.loginCenter, .logoutCenter {
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        position: relative;
+        padding: 30px 5px 5px 20px;
+        background-color: snow;
+        top: 20%;
+        max-width: 720px;
+        max-height: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        background: -ms-linear-gradient(top, #363636 0%, #071204 100%);
+        background: -moz-linear-gradient(top, #363636 0%, #071204 100%);
+        background: -o-linear-gradient(top, #363636 0%, #071204 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #363636), color-stop(100, #071204));
+        background: -webkit-linear-gradient(top, #363636 0%, #071204 100%);
+        background: linear-gradient(to bottom, #363636 0%, #071204 100%);
+        text-shadow: 1px 1px 1px rgba(9, 61, 16, 0.66);
+}
+
+.cactiLoginLogo, .cactiLogoutLogo {
+        position: relative;
+        float: right;
+        background: transparent url('../../images/cacti_logo.svg') no-repeat center;
+        width: 120px;
+        height: 148px;
+        z-index: 2;
+        margin-top: -130px;
+        margin-left: 240px;
+        margin-bottom: -20px;
+}
